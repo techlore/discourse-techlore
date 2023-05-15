@@ -1,0 +1,17 @@
+<script>
+  $(document).ready(function() {
+    $(window).scroll(function(){
+      checkScroll()
+      }); 
+  
+    function checkScroll() {
+      var y = $(window).scrollTop();		
+      if (y > 55) {
+              document.getElementById("main").classList.add('no-text');
+          } else {
+              document.getElementById("main").classList.remove('no-text');
+          }
+    }
+    checkScroll();
+  });
+</script>

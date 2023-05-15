@@ -1,3 +1,32 @@
 @import "showcased-categories";
 @import "chat-desktop";
 @import "sidebar-desktop";
+
+.b-header {
+  background-color: #000000;
+  font-family: 'Comfortaa', sans-serif;
+}
+.b-header .contents {
+  display: flex;
+  justify-content: space-between;
+}
+.b-header .nav-pills > li > a,
+.b-header .panel > ul.icons a, .b-header .panel > ul.icons .d-icon {
+  color: #ffffff;
+}
+
+.d-header .title::after {
+  padding-left: 20px;
+  font-size: 1.3em;
+  content: "Techlore Discussions";
+  font-family: 'Comfortaa', sans-serif;
+  color: var(--header-primary);
+}
+.archetype-regular #main.no-text .d-header .title::after,
+.archetype-private_message #main.no-text .d-header .title::after  {
+  display:none;
+}
+
+html.has-full-page-chat body #main-outlet .full-page-chat {
+  height: calc(100vh - (var(--header-offset) + 80px));
+}
