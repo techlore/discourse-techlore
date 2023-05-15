@@ -2,20 +2,6 @@
 
 A clean & modern theme with a handful of theme-components included to enhance your forum!
 
-<!-- Add screenshots (if applicable) -->
-
-**Light Mode**
-
-![image](https://user-images.githubusercontent.com/5862206/214545439-85410d82-9565-4e00-8b23-b2d69a0ee1eb.png)
-
-**Dark Mode**
-
-![image](https://user-images.githubusercontent.com/5862206/214545506-f44d6165-4f79-416e-a89c-548482d04cea.png)
-
-**Categories Page**
-
-![image](https://user-images.githubusercontent.com/5862206/214545568-76d38925-55a6-4359-b1c6-bf1010706132.png)
-
 This theme includes a handful of components to enhance your forum as well.
 
 - Dark Light Scheme Toggle
@@ -68,7 +54,5 @@ I hope you enjoy!
 
 |                     |                              |                                                                                                                             |
 | ------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| :eyeglasses:        | **Preview**                  | https://discourse.jordanvidrine.com/                                                                                        |
-| :hammer_and_wrench: | **Repository**               | https://github.com/discourse/discourse-air.git                                                                              |
 | :question:          | **Install Guide**            | [How to install a theme or theme component](https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682) |
 | :open_book:         | **New to Discourse Themes?** | [Beginner’s guide to using Discourse Themes](https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966)  |

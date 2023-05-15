@@ -1,5 +1,5 @@
 {
-  "name": "Air Theme",
+  "name": "Techlore Theme",
   "about_url": null,
   "license_url": null,
   "components": [
@@ -12,7 +12,7 @@
     "serialize_topic_excerpts": true
   },
   "color_schemes": {
-    "air-light": {
+    "techlore-light": {
       "primary": "1c1c1c",
       "secondary": "f9fcff",
       "tertiary": "3877e5",
@@ -22,19 +22,23 @@
       "highlight": "e6cb37",
       "danger": "d05454",
       "success": "71bd9f",
-      "love": "c16ad7"
+      "love": "c16ad7",
+      "hover": "f1f1f1",
+      "selected": "e8e8e8"
     },
-    "air-dark": {
+    "techlore-dark": {
       "primary": "e0e0e0",
       "secondary": "2d2d2d",
-      "tertiary": "9a5cfd",
+      "tertiary": "3877e5",
       "quaternary": "71bd9f",
-      "header_background": "202020",
+      "header_background": "000000",
       "header_primary": "e0e0e0",
-      "highlight": "9a5cfd",
+      "highlight": "3877e5",
       "danger": "d05454",
       "success": "71bd9f",
-      "love": "c16ad7"
+      "love": "c16ad7",
+      "hover": "313131",
+      "selected": "2d2d2d"
     }
   }
 }
