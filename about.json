@@ -2,6 +2,10 @@
   "name": "Techlore Theme",
   "about_url": null,
   "license_url": null,
+  "assets": {
+    "comfortaa": "assets/comfortaa-regular.ttf",
+    "simplelogin": "assets/simplelogin.png"
+  },
   "components": [
     "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
     "https://github.com/discourse/discourse-loading-slider.git",

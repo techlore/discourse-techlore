@@ -1,3 +1,38 @@
+@font-face {
+  src: url($comfortaa);
+  font-family: 'Comfortaa';
+}
+
+:root {
+    --heading-font-family: 'Comfortaa', sans-serif;
+}
+
+.names {
+  .techlore ~ .user-title a {
+    color: white;
+  }
+}
+
+.custom-footer .first-box .heading {
+    font-family: var(--heading-font-family);
+}
+
+.d-user-card__main-content {
+    opacity: 90%;
+}
+
+body.crawler {
+    background: var(--secondary);
+}
+
+body.crawler div.background-container {
+    display: none;
+}
+
+body.category-techlore-content button.btn.expand-post {
+    display: none;
+}
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
@@ -702,4 +737,14 @@ html body #main-outlet {
 
 .static-login .custom-footer {
   margin-top: 3em;
+}
+
+// Log in with SimpleLogin button
+.login-modal #login-buttons:not(.hidden), .create-account #login-buttons:not(.hidden) {
+  min-width: 220px;
+}
+.btn-social.oidc .d-icon.d-icon-sign-in-alt {
+  background-image: url($simplelogin);
+  background-size: contain;
+  color: transparent;
 }

@@ -10,6 +10,8 @@ This theme includes a handful of components to enhance your forum as well.
 - Discourse Search Banner
 - Modern Category + Group Boxes
 
+The [Comfortaa Regular font](/assets/comfortaa-regular.ttf) is licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
+
 > :exclamation: Please read through these tips upon installation, as there are a couple of settings that **NEED TO BE ENABLED** for this to theme to render properly.
 
 ---
@@ -20,7 +22,7 @@ This theme includes a handful of components to enhance your forum as well.
 
 ![image](https://user-images.githubusercontent.com/5862206/214545622-af847fa5-b4ae-4308-9fe2-ddd66eb62cc8.png)
 
-For this to work properly, at least 2 color scheme choices need to be enabled in your `https://discourse.jordanvidrine.com/admin/customize/colors` area. At least two colors need to have `color scheme can be selected by users` enabled.
+For this to work properly, at least 2 color scheme choices need to be enabled in your `/admin/customize/colors` area. At least two colors need to have `color scheme can be selected by users` enabled.
 
 ![image](https://user-images.githubusercontent.com/5862206/214545647-e0544474-b6bf-4b9c-8c64-6a8bfa6ba83a.png)
 
