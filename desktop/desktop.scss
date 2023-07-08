@@ -29,4 +29,5 @@
 
 html.has-full-page-chat body #main-outlet .full-page-chat {
   height: calc(100vh - (var(--header-offset) + 80px));
+  --composer-height: 70px;
 }
