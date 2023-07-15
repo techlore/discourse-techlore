@@ -4,7 +4,6 @@
 
 .b-header {
   background-color: #000000;
-  font-family: 'Comfortaa', sans-serif;
 }
 .b-header .contents {
   display: flex;
@@ -19,7 +18,6 @@
   padding-left: 20px;
   font-size: 1.3em;
   content: "Techlore Discussions";
-  font-family: 'Comfortaa', sans-serif;
   color: var(--header_primary);
 }
 .archetype-regular #main.no-text .d-header .title::after,

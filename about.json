@@ -3,7 +3,6 @@
   "about_url": null,
   "license_url": null,
   "assets": {
-    "comfortaa": "assets/comfortaa-regular.ttf",
     "simplelogin": "assets/simplelogin.png"
   },
   "components": [

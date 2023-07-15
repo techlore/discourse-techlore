@@ -10,8 +10,6 @@ This theme includes a handful of components to enhance your forum as well.
 - Discourse Search Banner
 - Modern Category + Group Boxes
 
-The [Comfortaa Regular font](/assets/comfortaa-regular.ttf) is licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
-
 > :exclamation: Please read through these tips upon installation, as there are a couple of settings that **NEED TO BE ENABLED** for this to theme to render properly.
 
 ---
