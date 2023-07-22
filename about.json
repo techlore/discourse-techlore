@@ -1,16 +1,10 @@
 {
   "name": "Techlore Theme",
-  "about_url": null,
-  "license_url": null,
+  "about_url": "https://github.com/techlore/discourse-techlore#readme",
+  "license_url": "https://github.com/techlore/discourse-techlore/blob/main/LICENSE",
   "assets": {
     "simplelogin": "assets/simplelogin.png"
   },
-  "components": [
-    "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
-    "https://github.com/discourse/discourse-loading-slider.git",
-    "https://github.com/discourse/discourse-clickable-topic.git",
-    "https://github.com/discourse/discourse-search-banner.git"
-  ],
   "modifiers": {
     "serialize_topic_excerpts": true
   },
