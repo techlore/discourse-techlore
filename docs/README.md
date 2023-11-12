@@ -2,7 +2,7 @@
 
 ![screenshot](categories.png)
 
-**This is the theme for the [Techlore Discussions](https://discuss.techlore.tech) forum.** It is a fork of the [discourse-air](https://github.com/discourse/discourse-air) theme. We do not provide support for self-hosting. This theme is installed alongside a handful of theme components as well:
+**This is the theme for the [Techlore Discussions](https://discuss.techlore.tech) forum.** It is a fork of the [discourse-air](https://github.com/discourse/discourse-air) theme. This theme is only intended for our own use, so we do not provide support for self-hosting. This theme is installed alongside a handful of theme components as well:
 
 - [Dark Light Scheme Toggle](https://github.com/discourse/discourse-color-scheme-toggle.git)
 - [DiscoTOC](https://github.com/discourse/DiscoTOC.git)

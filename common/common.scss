@@ -277,17 +277,10 @@ html {
     background: linear-gradient(90deg, var(--tertiary-hover) 0%, var(--tertiary) 100%);
   }
   .background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 20em;
+    height: 0em;
     width: 100vw;
     background: black;
   }
-}
-
-.background-container .background-wavet {
-  margin-top: 20em;
 }
 
 .background-wave {
@@ -302,11 +295,15 @@ html {
   }
 }
 
+.d-header-wrap {
+  margin-bottom: 5em;
+}
+
 html body #main-outlet {
   margin-top: 30px;
   margin-bottom: 50px;
   background: var(--secondary);
-  border-radius: 1em;
+  border-radius: 0.3em;
   padding: 3em 3em 5%;
   max-width: 1150px;
   .archetype-regular & {

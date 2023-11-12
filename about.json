@@ -10,8 +10,8 @@
   },
   "color_schemes": {
     "techlore-light": {
-      "primary": "1c1c1c",
-      "secondary": "f9fcff",
+      "primary": "000000",
+      "secondary": "d5def3",
       "tertiary": "3877e5",
       "quaternary": "7e8b93",
       "header_background": "000000",
@@ -24,8 +24,8 @@
       "selected": "e8e8e8"
     },
     "techlore-dark": {
-      "primary": "e0e0e0",
-      "secondary": "2d2d2d",
+      "primary": "ffffff",
+      "secondary": "121f36",
       "tertiary": "3877e5",
       "quaternary": "71bd9f",
       "header_background": "000000",
