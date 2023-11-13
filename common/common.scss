@@ -541,7 +541,7 @@ html body #main-outlet {
 // published page additions
 .published-page-content-wrapper {
   max-width: 1000px;
-  margin-top: 30px;
+  margin-top: 100px;
   margin-bottom: 50px;
   background: var(--secondary);
   border-radius: 0.3em;
@@ -552,11 +552,17 @@ html body #main-outlet {
     0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
   z-index: 1;
   position: relative;
+  .published-page-author {
+    display: none;
+  }
 }
 
 .published-page {
+  .published-page-header .published-page-header-wrapper {
+    max-width: 1000px;
+  }
   .background-container {
-    display: none;
+    position: absolute;
   }
   &::before {
     background: linear-gradient(
