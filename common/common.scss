@@ -355,6 +355,7 @@ html body #main-outlet {
     }
     .topic-list-data.posters {
       width: 7%;
+      min-width: 66px;
     }
     .topic-list-data.posts {
       width: 15%;
@@ -411,6 +412,7 @@ html body #main-outlet {
       }
       .topic-list-data.posters {
         width: 7%;
+        min-width: 66px;
         order: 1;
         height: auto;
         display: flex;
