@@ -67,12 +67,12 @@ ol.category-breadcrumb {
 .categories-list .list-controls {
   background: var(--secondary);
   padding: 0.5em;
-  border-radius: 8px;
+  border-radius: 0.3em;
 }
 
 .list-controls .nav-pills {
   li.navigation-toggle {
-    border-radius: 8px;
+    border-radius: 0.3em;
     border: none;
     background-color: var(--secondary);
     a:hover,
@@ -83,7 +83,7 @@ ol.category-breadcrumb {
   }
   .drop {
     top: calc(100% + 0.5em);
-    border-radius: 8px;
+    border-radius: 0.3em;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
   }
 }
@@ -99,7 +99,7 @@ ol.category-breadcrumb {
 
 .top-lists {
   background-color: var(--secondary);
-  border-radius: 8px;
+  border-radius: 0.3em;
   padding: 0.25em 0.25em 0.25em 0.5em;
   margin-bottom: 0.5em;
 }
@@ -126,7 +126,7 @@ ol.category-breadcrumb {
 .fps-result {
   background: var(--secondary);
   padding: 1em;
-  border-radius: 8px;
+  border-radius: 0.3em;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(var(--primary-rgb), 0.1);
   margin-bottom: 0.5em;
@@ -146,7 +146,7 @@ ol.category-breadcrumb {
 
 .full-width .contents .topic-list .topic-list-header tr {
   background-color: var(--secondary);
-  border-radius: 8px;
+  border-radius: 0.3em;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(var(--primary-rgb), 0.1);
   margin-bottom: 1em;
