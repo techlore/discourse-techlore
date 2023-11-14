@@ -197,7 +197,7 @@ div.ac-wrap {
   border-radius: 4px;
 }
 .d-header {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: none;
 }
 
 .d-header-icons .d-icon {
@@ -287,7 +287,7 @@ html {
 .background-wave {
   animation: wave 10s linear;
   animation-iteration-count: infinite;
-  fill: black;
+  fill: var(--header_background);
   
   @keyframes wave {
     100% {
