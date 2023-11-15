@@ -282,6 +282,9 @@ html {
     width: 100vw;
     background: black;
   }
+  .background-overflow-container {
+    overflow-x: hidden;
+  }
   svg.background-wavet {
     height: 190px;
     min-width: 100vw;
