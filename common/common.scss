@@ -786,3 +786,19 @@ html body #main-outlet {
   background-size: contain;
   color: transparent;
 }
+
+// Hide post notice icon
+.post-notice.custom {
+  p:first-of-type::before {
+    content: "Staff Notice: ";
+    font-weight: bold;
+  }
+  .d-icon-user-shield {
+    display: none;
+  }
+}
+.post-notice:not(.custom) {
+  img {
+    display: none;
+  }
+}
