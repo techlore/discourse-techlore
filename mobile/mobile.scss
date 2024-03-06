@@ -91,6 +91,9 @@ ol.category-breadcrumb {
 .topic-list .topic-list-data {
   padding: 1em 1em 0 1em;
   max-width: unset;
+  .topic-excerpt {
+    max-width: 50vw;
+  }
 }
 
 .custom-search-banner-wrap .search-context {
