@@ -810,3 +810,10 @@ html body #main-outlet {
     content: "@";
   }
 }
+
+// don't crop images to circles on https://discuss.techlore.tech/g
+.groups-boxes .group-box .group-avatar-flair, .group-info {
+  .avatar-flair {
+    border-radius: 0;
+  }
+}
