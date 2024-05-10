@@ -223,6 +223,11 @@ ol.category-breadcrumb {
   }
 }
 
-body.has-full-page-chat .d-header-wrap {
-  margin-bottom: 0;
+body.has-full-page-chat {
+  .d-header-wrap {
+    margin-bottom: 0;
+  }
+  .custom-footer {
+    display: none;
+  }
 }
