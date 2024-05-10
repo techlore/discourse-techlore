@@ -16,9 +16,10 @@
 
 .d-header .title::after {
   padding-left: 20px;
-  font-size: 1.3em;
+  font-size: 1.5em;
   content: "Techlore Discussions";
   color: var(--header_primary);
+  font-family: var(--heading-font-family);
 }
 .archetype-regular #main.no-text .d-header .title::after,
 .archetype-private_message #main.no-text .d-header .title::after  {
