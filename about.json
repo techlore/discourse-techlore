@@ -12,13 +12,13 @@
     "techlore-light": {
       "primary": "000000",
       "secondary": "d5def3",
-      "tertiary": "3877e5",
+      "tertiary": "5574e6",
       "quaternary": "7e8b93",
       "header_background": "ffffff",
       "header_primary": "000000",
       "highlight": "e6cb37",
-      "danger": "d05454",
-      "success": "71bd9f",
+      "danger": "ee5128",
+      "success": "7cbb41",
       "love": "c16ad7",
       "hover": "f1f1f1",
       "selected": "e8e8e8"
@@ -26,13 +26,13 @@
     "techlore-dark": {
       "primary": "ffffff",
       "secondary": "121f36",
-      "tertiary": "3877e5",
+      "tertiary": "5574e6",
       "quaternary": "71bd9f",
       "header_background": "000000",
       "header_primary": "ffffff",
       "highlight": "3877e5",
-      "danger": "d05454",
-      "success": "71bd9f",
+      "danger": "ee5128",
+      "success": "7cbb41",
       "love": "c16ad7",
       "hover": "313131",
       "selected": "2d2d2d"

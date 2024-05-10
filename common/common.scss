@@ -275,7 +275,7 @@ div.ac-wrap {
 
 html {
   body {
-    background: linear-gradient(90deg, var(--tertiary-hover) 0%, var(--tertiary) 100%);
+    background: var(--tertiary);
   }
   .background-container {
     height: 0em;
@@ -285,13 +285,18 @@ html {
   .background-overflow-container {
     overflow-x: hidden;
   }
-  svg.background-wavet {
-    height: 190px;
+  svg.background-wavet, svg.background-wavet-2 {
+    margin-top: 50px;
+    height: 100px;
     min-width: 100vw;
+  }
+  svg.background-wavet-2 {
+    position: relative;
+    top: -140px;
   }
 }
 
-.background-wave {
+.background-wave, .background-wave-2 {
   animation: wave 10s linear;
   animation-iteration-count: infinite;
   fill: var(--header_background);
@@ -301,6 +306,10 @@ html {
       transform: translateX(-100%);
     }
   }
+}
+
+.background-wave-2 {
+  opacity: 20%;
 }
 
 .d-header-wrap {
