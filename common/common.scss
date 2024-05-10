@@ -898,3 +898,9 @@ html body #main-outlet {
     border-radius: 0;
   }
 }
+
+// text selection color/highlight
+::selection {
+  background: var(--primary-med-or-secondary-med);
+  color: white;
+}
