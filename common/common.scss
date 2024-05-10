@@ -225,6 +225,10 @@ body.category-techlore-content button.btn.expand-post {
   }
 }
 
+.not-found-container {
+  background-color: var(--secondary);
+}
+
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -322,13 +326,16 @@ div.ac-wrap {
 }
 
 html {
-  body {
+  body:not(.no-ember) {
     background: var(--tertiary);
   }
   .background-container {
     height: 0em;
     width: 100%;
     background: black;
+  }
+  body.no-ember .background-container {
+    display: none;
   }
   .background-overflow-container {
     overflow-x: hidden;
@@ -391,6 +398,23 @@ html body #main-outlet {
 .nav-pills:not(.user-nav) > li a.active,
 .nav-pills:not(.user-nav) > li > a {
   border-radius: 0.3em;
+}
+
+.category-calendar {
+  &.before-topic-list-body-outlet {
+    display: block;
+  }
+  background: var(--secondary);
+  padding: 1em;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.discourse-post-event-upcoming-events {
+  background: var(--secondary);
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
 }
 
 // Topic List
@@ -647,7 +671,6 @@ html body #main-outlet {
 }
 
 .quote-button {
-  background-color: var(--primary-low-mid);
   border-radius: 0.3em;
 }
 
