@@ -1,3 +1,51 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url($lato-italic) format('opentype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url($lato-bolditalic) format('opentype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url($lato-regular) format('opentype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url($lato-bold) format('opentype');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: italic;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url($nunito-italic) format('opentype');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url($nunito-regular) format('opentype');
+}
+
+:root {
+    --heading-font-family: 'Nunito', sans-serif;
+    --font-family: "Lato", sans-serif;
+}
+
 .names {
   .techlore ~ .user-title a {
     color: white;
@@ -309,7 +357,7 @@ html {
 }
 
 .background-wave-2 {
-  opacity: 20%;
+  opacity: 50%;
 }
 
 .d-header-wrap {

@@ -3,7 +3,13 @@
   "about_url": "https://github.com/techlore/discourse-techlore#readme",
   "license_url": "https://github.com/techlore/discourse-techlore/blob/main/LICENSE",
   "assets": {
-    "simplelogin": "assets/simplelogin.png"
+    "simplelogin": "assets/simplelogin.png",
+    "lato-bold": "assets/lato-bold.ttf",
+    "lato-bolditalic": "assets/lato-bolditalic.ttf",
+    "lato-italic": "assets/lato-italic.ttf",
+    "lato-regular": "assets/lato-regular.ttf",
+    "nunito-regular": "assets/nunito-regular.ttf",
+    "nunito-italic": "assets/nunito-italic.ttf"
   },
   "modifiers": {
     "serialize_topic_excerpts": true
