@@ -231,3 +231,14 @@ body.has-full-page-chat {
     display: none;
   }
 }
+
+abbr[title]
+{
+  text-decoration: none;
+}
+
+abbr[title]:after
+{
+   content: " (" attr(title) ")";
+   color: var(--primary-medium);
+}
