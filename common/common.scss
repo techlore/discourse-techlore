@@ -904,3 +904,8 @@ html body #main-outlet {
   background: var(--primary-med-or-secondary-med);
   color: white;
 }
+
+// abbreviation style (webkit fix)
+abbr[title] {
+  text-decoration-style: dotted;
+}
