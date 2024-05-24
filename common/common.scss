@@ -905,7 +905,13 @@ html body #main-outlet {
   color: white;
 }
 
-// abbreviation style (webkit fix)
 abbr[title] {
-  text-decoration-style: dotted;
+  text-decoration-style: dotted; // abbreviation style (webkit fix)
+  cursor: help;
+}
+
+abbr[title]:hover:after
+{
+   content: " (" attr(title) ")";
+   color: var(--primary-medium);
 }

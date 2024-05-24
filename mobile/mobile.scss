@@ -231,9 +231,3 @@ body.has-full-page-chat {
     display: none;
   }
 }
-
-abbr[title]:hover:after
-{
-   content: " (" attr(title) ")";
-   color: var(--primary-medium);
-}
