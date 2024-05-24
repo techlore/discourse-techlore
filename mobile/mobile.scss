@@ -232,12 +232,7 @@ body.has-full-page-chat {
   }
 }
 
-abbr[title]
-{
-  text-decoration: none;
-}
-
-abbr[title]:after
+abbr[title]:hover:after
 {
    content: " (" attr(title) ")";
    color: var(--primary-medium);
