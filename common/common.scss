@@ -905,7 +905,24 @@ html body #main-outlet {
   color: white;
 }
 
-// abbreviation style (webkit fix)
+// from: https://meta.discourse.org/t/add-abbr-tags-to-words-in-posts/88394/30
 abbr[title] {
+  position: relative;
+  background: transparent;
+  overflow: visible;
   text-decoration-style: dotted;
+}
+abbr[title]:hover:after {
+  content: " " attr(title) "";
+  position: absolute;
+  border-radius: 3px;
+  bottom: 70%;
+  left: 0;
+  width: 250px;
+  height: auto;
+  padding: 2px;
+  z-index: 9;
+  background: var(--primary-low);
+  color: var(--primary);
+  margin-bottom: 10px;
 }
