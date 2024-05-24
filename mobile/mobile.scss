@@ -232,15 +232,13 @@ body.has-full-page-chat {
   }
 }
 
-// abbr[title]
-// {
-//   text-decoration: none;
-// }
+abbr[title]
+{
+  text-decoration: none;
+}
 
-// abbr[title]:after
-// {
-//    content: " (" attr(title) ")";
-//    color: var(--primary-medium);
-// }
-
-// from: https://meta.discourse.org/t/add-abbr-tags-to-words-in-posts/88394/30
+abbr[title]:after
+{
+   content: " (" attr(title) ")";
+   color: var(--primary-medium);
+}
