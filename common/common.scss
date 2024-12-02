@@ -915,3 +915,11 @@ abbr[title]:hover:after
    content: " (" attr(title) ")";
    color: var(--primary-medium);
 }
+
+// non-staff views (not for security reasons!)
+body:not(.staff) {
+  // hide action-social-post tag from public view
+  [data-tag-name="action-social-post"] {
+    display: none;
+  }
+}
