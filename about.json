@@ -45,5 +45,6 @@
       "hover": "313131",
       "selected": "2d2d2d"
     }
-  }
+  },
+  "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
 }

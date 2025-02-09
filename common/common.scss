@@ -923,3 +923,8 @@ body:not(.staff) {
     display: none;
   }
 }
+
+// https://github.com/discourse/discourse-air/commit/a435c5f25d090e2631fd349fca649b72f8d2dade
+.title-voting {
+  padding-left: 14px;
+}
